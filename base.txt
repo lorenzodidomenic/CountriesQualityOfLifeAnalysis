@@ -1,0 +1,126 @@
+Nel dataset troviamo ogni riga che esprime caratteristiche riguardo una determinata nazone. Le colonne che troviamo nel dataset sono:  
+
+Ranking ( il ranking globale della nazione basato sull’indice di qualità della vita in accordo con anno) 
+
+Nazione (il nome della nazione) 
+
+Indice di qualità di vita (un indice composto che valuta in totale la qualità della vita nella nazione) 
+
+Purchasing power index (misura il potere di acquisto relativo ad un consumatore medio rispetto a New York, base=100) 
+
+Indice di sicurezza (un indice alto indica un ambiente più sicuro) 
+
+Indice di sanità  (indice della qualità e della accessibilità alla sanità in un paese) 
+
+Costo della vita (misura i costi della vita rispetto a New York, base = 100) 
+
+Property price ( confronta l’accessibilità economica degli immobili dividendo il prezzo medio delll’immobile per il reddito medio nella nazione) 
+
+Tempo speso nel traffico ( il tempos medio speso a causa del traffico) 
+
+Indice di inquinamento (il livello di inquinamento generale nella nazione) 
+
+Indice climatico ( condizioni climatiche favorevoli, higher = più alto) 
+
+Anno (anno dove le metriche sono state estratte) 
+
+
+Alcune osservazioni utili che possiamo fare sul dataset sono:  
+
+L'indice di qualità della vita aggrega più indicatori, facendo esso una utile singola metrica per comparare le nazioni 
+
+Indici come Indice di sanità e Indice di sicurezza permettono di concentrarsi su aree come sicurezza e sanità 
+
+Indici come Costo della vita e Indice di acquisto possono aiutare per capire la comodità di vita in una nazione 
+
+
+ 
+
+Possibili utilizzi del dataset: 
+
+che possono aiutare in decisioni come la scelta di un luogo in cui vivere o l’analisi delle tendenze globali nella qualità della vita. 
+
+ 
+
+Confrontare nazioni e identificare destinazioni di vita in base a questi parametri 
+
+Fare EDA (exploratory data analysis( per identificare trends e correlazioni tra metriche di qualità della vita) 
+
+Visualizzare queste metriche in grafici 
+
+Costruire modelli predittivi, ad esempio predire l’indice di qualità della vita basati su altre metriche o altri valori 
+
+ 
+
+POSSIBILI DOMANDE PRELIMINARI DI ANALISI CHE POSSIAMO FARE SUL DATASET: 
+
+Primo passo pulire e formattare il dataset iniziale levando errori, duplicati e formati noon corretti (ad esempio posso modificare certe colonne che non mi piacciono) 
+
+Analizzo e descrivo usando tecniche come distribuzioni di frequenze, mostrare classifiche, trends 
+
+Prima cosa base potrei fare vedere la classifica basandoci sulla qualità della vita 
+
+Potrei poi far vedere cose basi come quale è la qualità di vita media, inquinamento medio, costo medio etc delle varie colonne nel mondo e nei vari anni (cossidette misure di tendenza centrale) 
+
+Potrei far vedere il numero di volte che un certo indice  (ad esempio un idnice negativo) appare  nell’analisi 
+
+Potrei far vedere coem certi indici si stanno evolvendo in italia negli anni e nel mondo in generale (vedendo se c’è un progresso opprue no) 
+
+Associazioni tra variabili ( mi posso chiedere se ci sono delle variabili che influenzano il valore delle altre, magari tramite una scattermatrix o con indice di correlazione di Pearson) 
+
+Poi potrei passare ad una analisi inferenziali (regressione lineare per capire coem certi indici evolveranno per determinate nazioni e in generale e quali nazioni sono destinate in futuro ad avere un indici di qualità della vita alto) 
+
+Fare analisi dati causale per vedere quale variabili causa il valore di un altra etc 
+
+Ha senso fare pca? 
+
+Fare classificazione per dire (quella nazione è vivivbile oppure no) 
+
+Regressione lineare da un punto di vista predittivo 
+
+Posso fare encodign di variabili cateogriche o fare standardizzazine 
+
+ 
+
+ 
+
+    La prima domanda che mi sono posto guardando il dataset è: quale è il luogo dove si vive megio al mondo e da cosa è influenzato questo fatto 
+
+Come si vive in italia e quali sono i fattori che possiamo migliorare per alzare questo indice di vita 
+
+Mi sono poi chiesto: in quali paesi si sta alzando la qualità della vita e come l’italia si posiziona rispetto a questi paesi? Come fattori coem sicurezza e sanità si stanno evolvendo negli anni e in quali paesi sono peggiorati negli anni raggiungendo un eventuale soglia crititca? 
+
+ 
+
+Posso quindi dividere l’analisi che voglio fare sul dataset  
+
+Analisi descrittiva 
+
+Analizzo i dati che già ho 
+
+ 
+
+ 
+
+      - Analisi predittiva 
+
+        Scoprire trend futuri a partire dai dati che ho 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Strumenti che posso utilizzare: 
+- jupyter notebook 
+
+Numpy 
+
+Matplot lib per mostrare i grafici 
+
+Pandas 
+
+ 
