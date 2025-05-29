@@ -109,11 +109,6 @@ Analizzo i dati che già ho
  
 
  
-
- 
-
- 
-
 Strumenti che posso utilizzare: 
 - jupyter notebook 
 
