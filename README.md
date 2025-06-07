@@ -1,2 +1,3 @@
 # CountriesQualityOfLifeAnalysis
-analysis of the quality of life in the world's nations
+
+An analysis of quality of life across the world's nations
