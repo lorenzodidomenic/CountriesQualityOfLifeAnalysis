@@ -2,5 +2,5 @@ pandas
 matplotlib
 numpy
 seaborn
-sklearn
-statmodels
+scikit-learn
+statsmodels
